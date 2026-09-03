@@ -1,0 +1,18 @@
+# Number in YAML
+age: 17
+horses: 0
+# Float in YAML
+marks: 98.5
+#After specifying type
+zero: !!int 0
+age_1: !!int 17
+friends: !!int 1
+neg_val: !!int -89
+bin_2: !!int 0b0010
+oct_2: !!int 0600
+hex: !!int 0x45
+comma: !!int +900_000
+# Float type examples
+fp_1: !!float 90.998
+fp_2: !!float .inf
+fp_3: .nan #Not a number
