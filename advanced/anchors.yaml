@@ -1,0 +1,10 @@
+# Anchors in YAML and reusing Property
+dataset: &common
+  class: 12
+  age: 17
+Priyam:
+  name: Priyam Ghosh
+  <<: *common
+Auroshika:
+  name: Auroshika Priyadarshinee
+  <<: *common
