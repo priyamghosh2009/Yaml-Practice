@@ -1,0 +1,10 @@
+# String Variables
+myself: Priyam Ghosh
+bio: |
+  Interested in AI building and Quantum Computing.
+fruit: "mango"
+# Single line in multi lines
+message: >
+  Be Good
+  Do Good
+  Live Good
