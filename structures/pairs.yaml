@@ -1,0 +1,5 @@
+# Pairs Datatype in YAML
+person: !!pairs
+  - job: SWE
+  - job: CA
+  
