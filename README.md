@@ -33,18 +33,19 @@ yaml-practice/
 │
 ├── structures/
 │   ├── lists.yaml
+|   ├── sets.yaml
+|   ├── dictionary.yaml
+|   ├── pairs.yaml
 │   ├── mappings.yaml
 │   └── nested.yaml
 │
 ├── advanced/
 │   ├── anchors.yaml
-│   ├── aliases.yaml
-│   └── multiline.yaml
+│   └── date_and_time.yaml
 │
 └── examples/
     ├── config.yaml
-    ├── project.yaml
-    └── environment.yaml
+    └── project.yaml
 ```
 
 ## What I'm Practicing
