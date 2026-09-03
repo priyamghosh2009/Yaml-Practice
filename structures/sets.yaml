@@ -1,0 +1,5 @@
+# Set Dataype in YAML
+person: !!set
+  ? Priyam
+  ? Auroshika
+#Sets allow to have an unique value
