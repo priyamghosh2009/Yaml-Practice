@@ -1,0 +1,12 @@
+# Lists in YAML
+fruits:
+  - apple
+  - banana
+  - grapes
+  - cherry
+subjects:
+  - maths
+  - chemistry
+  - physics
+  - computer science
+  - english
