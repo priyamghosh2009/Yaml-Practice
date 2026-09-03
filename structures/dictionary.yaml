@@ -1,0 +1,10 @@
+# Dictionary (omap) datatype in YAML.
+people: !!omap
+  - Priyam:
+     name: Priyam Ghosh
+     age: 17
+     class: 12
+  - Auroshika:
+     name: Auroshika Priyadarshinee
+     age: 17
+     class: 12
