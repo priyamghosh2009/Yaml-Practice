@@ -1,0 +1,11 @@
+# Boolean Values
+OK: Yes
+ok: yes
+oK: Y
+Ok: y
+# For False Boolean Values
+nok: n
+Nok: No
+NOk: N
+NoK: False
+NOK: FALSE
