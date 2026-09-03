@@ -1,0 +1,39 @@
+# Sample config.yaml for the Tensorflow Project or program
+
+project:
+  name: "tensorflow-project"
+  version: "1.0.0"
+  seed: 42
+
+data:
+  dataset: "mnist"
+  data_dir: "./data"
+  batch_size: 64
+  shuffle: true
+  validation_split: 0.1
+
+model:
+  type: "cnn"
+  input_shape: [28, 28, 1]
+  num_classes: 10
+
+training:
+  epochs: 10
+  learning_rate: 0.001
+  optimizer: "adam"
+  loss: "sparse_categorical_crossentropy"
+  metrics:
+    - "accuracy"
+
+hardware:
+  device: "auto"
+  mixed_precision: false
+
+logging:
+  level: "INFO"
+  log_dir: "./logs"
+
+output:
+  model_dir: "./models"
+  checkpoint_dir: "./checkpoints"
+  save_best_only: true
