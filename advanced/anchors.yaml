@@ -1,10 +1,11 @@
-# Anchors in YAML and reusing Property
+# Anchors and Aliases in YAML and reusing Property
 dataset: &common
   class: 12
   age: 17
 Priyam:
   name: Priyam Ghosh
   <<: *common
+# * common is the aliases and &common is the anchors in this yaml file
 Auroshika:
   name: Auroshika Priyadarshinee
   <<: *common
