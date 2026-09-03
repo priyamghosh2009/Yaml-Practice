@@ -1,0 +1,5 @@
+# Null values in YAML
+mykey_1: null
+mykey_2: ~
+mykey_3:
+~: "PRIYAM"
