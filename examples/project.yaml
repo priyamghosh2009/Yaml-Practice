@@ -1,0 +1,38 @@
+project:
+  name: "TF_1_Project"
+  version: "0.1.0"
+  description: "A Python project using TensorFlow"
+  license: "MIT"
+
+language:
+  name: "Python"
+  version: "3.11"
+
+framework:
+  name: "TensorFlow"
+  version: "2.x"
+
+structure:
+  source: "src/"
+  tests: "tests/"
+  data: "data/"
+  models: "models/"
+  logs: "logs/"
+  notebooks: "notebooks/"
+
+dependencies:
+  tensorflow: ">=2.0"
+  numpy: ">=1.0"
+  pandas: ">=1.0"
+  matplotlib: ">=3.0"
+  pyyaml: ">=6.0"
+
+training:
+  epochs: 10
+  batch_size: 64
+  learning_rate: 0.001
+  optimizer: "adam"
+
+runtime:
+  device: "auto"
+  seed: 42
