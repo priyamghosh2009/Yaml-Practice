@@ -1,0 +1,12 @@
+# Maps or Objects in YAML
+person:
+  name: Priyam Ghosh
+  age: 17
+  email: priyamghosh2009@outlook.com
+school:
+  name: DPS Paradip Refinery
+  classes: 12
+  sections: 
+    - A
+    - B
+    - C
